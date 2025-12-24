@@ -1,5 +1,5 @@
 {
-  "homepage": "https://username.github.io/react_app",
+  "homepage": "https://anish777-khatri.github.io/react_app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "deploy:all": "git add . && git commit -m \"Auto deploy\" && git push origin main && npm run deploy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
